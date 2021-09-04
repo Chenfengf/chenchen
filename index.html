@@ -9,27 +9,10 @@
           width: 100%;
           height: 100%;
         }
-		.video{
-		  position: fixed;  
-          right: 0px;
-		  left: 0px;
-		  bottom: 0px;
-		  top: 0px;
-          min-width: 100%;  
-          min-height: 100%;  
-          height: auto;  
-          width: auto;
-		  z-index: -11;
-		}
-        .bigbox{
-          width: 10px;
-          height: 10px;
-          position: relative;
-        }
         .box{
           width:500px;
           height:300px;
-          margin: 0 auto;
+		  margin-top:400px;
           transform-style: preserve-3d;
           transform: rotateX(-30deg) rotateY(-80deg);
           -webkit-animation: mystyle 15s infinite;
@@ -118,7 +101,7 @@
         }
     </style>
   </head>
-  <body onload="window.scrollTo((document.body.scrollWidth-document.body.offsetWidth)/2,(document.body.scrollHeight-document.body.offsetHeight)/2)">
+  <body onload="window.scrollTo((document.body.scrollWidth-document.body.offsetWidth)/2,0">
   <audio autoplay="autoplay" loop="loop"><source src="music/xizao.mp3" type="audio/mpeg"></audio>
     <div class="bigbox">
       <div class="box">
